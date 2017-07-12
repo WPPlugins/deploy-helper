@@ -1,0 +1,80 @@
+.deploy-helper-wrap h2 {
+	background: url(images/logo42.png) no-repeat;
+	line-height: 37px;
+	font-size: 26px;
+	padding-left: 47px;
+	padding-top: 3px;
+	margin-top: 15px;
+}
+
+span.green {
+	background: #3b943b;
+}
+span.red {
+	background: #9a2316;
+}
+span.red, span.green {
+	color: #FFF;
+	text-shadow: 0 -1px 0 #000;
+	line-height: 20px;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+#results-table h3 {
+	padding: 2px 0 7px 0;
+	
+}
+.debug {
+	font-size: 11px;
+}
+.debug_top {
+	height: 30px;
+}
+.normal {
+	color: #4f2c5e;
+}
+.normal_label {
+	margin: 5px 3px 0 3px;
+	width: 150px;
+	padding: 1px 0 0 3px;
+	background: #4f2c5e;
+	color: #FFF;
+}
+.normal_debug {
+	border: 1px solid #4f2c5e;
+	border-left-width: 5px;
+	padding: 1px 0 0 3px;
+	margin: 3px;
+	margin-top: 0;
+	overflow: auto;
+	max-height: 80px;
+	width: auto;
+}
+.serialized {
+	color: #385b78;
+}
+.serialized_label {
+	margin: 5px 3px 0 3px;
+	width: 150px;
+	padding: 1px 0 0 3px;
+	background: #385b78;
+	color: #FFF;
+}
+.serialized_debug {
+	border: 1px solid #385b78;
+	border-left-width: 5px;
+	padding: 1px 0 0 3px;
+	margin: 3px;
+	margin-top: 0;
+	overflow: auto;
+	max-height: 80px;
+	width: auto;
+}
+
+#site-stats td {
+	height: 22px;
+}
+.deploy-helper-wrap .credits {
+	clear: both;
+	margin-top: 15px;
+}
